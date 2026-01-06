@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "551942555252",
+    "project_id": "weatherwhiz-app",
+    "storage_bucket": "weatherwhiz-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551942555252:android:f08af7096751a2f7b6b321",
+        "android_client_info": {
+          "package_name": "com.example.weather_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMtfasJGr8IKfJOOiFukFd8FzJXpZxlPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

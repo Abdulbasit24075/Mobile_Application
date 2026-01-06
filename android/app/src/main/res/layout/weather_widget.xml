@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/widget_background"
+    android:padding="16dp">
+
+    <!-- Header with icon and temperature -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="8dp">
+
+        <TextView
+            android:id="@+id/widget_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:text="☀️" />
+
+        <TextView
+            android:id="@+id/widget_temperature"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:text="25°"
+            android:layout_marginStart="12dp" />
+
+    </LinearLayout>
+
+    <!-- Location -->
+    <TextView
+        android:id="@+id/widget_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:text="Location"
+        android:textColor="#FFFFFF" />
+
+    <!-- Condition -->
+    <TextView
+        android:id="@+id/widget_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:text="Condition"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="4dp" />
+
+    <!-- Weather details -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/widget_humidity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="Humidity: --%"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/widget_wind"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:text="Wind: -- km/h"
+            android:textColor="#FFFFFF"
+            android:gravity="end" />
+
+    </LinearLayout>
+
+    <!-- Update time -->
+    <TextView
+        android:id="@+id/widget_updated"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:text="Updated: --:--"
+        android:textColor="#CCFFFFFF"
+        android:layout_marginTop="8dp"
+        android:gravity="end" />
+
+</LinearLayout>
