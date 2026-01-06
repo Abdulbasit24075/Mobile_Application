@@ -1,0 +1,5 @@
+// Rename this file to api_keys.dart and add your actual API keys
+class ApiKeys {
+  static const huggingFaceApiKey = 'your_hugging_face_api_key_here';
+  static const openWeatherApiKey = 'your_openweather_api_key_here';
+}
